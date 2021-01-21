@@ -22,7 +22,7 @@ class Helpers
 
     public static function getModelByName($modelName)
     {
-        $modelFolders = config('elastic.model_folders');
+        $modelFolders = config('datainserter.model_folders');
 
         foreach ($modelFolders as $folder) {
             $modelsInFolder = self::modelsIn(app_path($folder));
