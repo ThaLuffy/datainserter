@@ -1,0 +1,29 @@
+{
+    "name": "thaluffy/datainserter",
+    "description": "Laravel datainserter",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "authors": [
+        {
+            "name": "Stephano Hondeveld",
+            "email": "stephano64@live.nl"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "ThaLuffy\\DataInserter\\": "src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ThaLuffy\\DataInserter\\ServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
