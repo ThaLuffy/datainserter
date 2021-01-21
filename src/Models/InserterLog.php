@@ -11,6 +11,7 @@ class InserterLog extends Model
         'type',
         'receiving_model',
         'inserting_model',
+        'model_id',
         'job_id',
     ];
 }
