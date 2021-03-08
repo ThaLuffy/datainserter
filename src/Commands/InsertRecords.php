@@ -161,7 +161,7 @@ class InsertRecords extends Command
         }
 
         $this->line("");
-        $this->info(ucfirst($index->getIndexName()) . ": {$this->currentRecordsInserted} records inserted in {$this->currentTotalDuration}s");
+        $this->info(": {$this->currentRecordsInserted} records inserted in {$this->currentTotalDuration}s");
         $this->line("");
     }
 
